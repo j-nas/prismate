@@ -14,9 +14,9 @@ function App() {
   console.log(schema)
 
   return (
-    <div className="dark">
+    <div className="">
       <ModeToggle />
-      <pre className="dark">{schema}</pre>
+      <pre className="">{schema}</pre>
     </div>
   )
 }
